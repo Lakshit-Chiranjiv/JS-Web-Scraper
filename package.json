@@ -2,16 +2,17 @@
   "name": "js-web-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./backend/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./backend/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0",
     "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
   }
 }
