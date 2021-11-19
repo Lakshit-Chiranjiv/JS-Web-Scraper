@@ -9,7 +9,7 @@ const getEpisodes = async() => {
     let snippet = '';
     data.forEach(episode => {
         if(episode.episode_name[0].toUpperCase() === 'A')
-            snippet+=`<h5><a href=${episode.episode_link}>${episode.episode_name}</a></h5>`;
+            snippet+=`<h5><a href=${episode.episode_link} target=_blank>${episode.episode_name}</a></h5>`;
     });
     eps.innerHTML = snippet;
 }
